@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Pranshii ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-note">She cried when she opened this</div>
+
+<main>
+
+  <!-- PAGE 1 -->
+  <section class="page active" id="p1">
+    <div class="tiny-label">♡ MADE WITH SO MUCH LOVE ♡</div>
+    <h1>Hello Pranshii</h1>
+    <p class="script">I made a little something for you ♡</p>
+
+    <div class="envelope" onclick="go(2)" aria-label="Open your surprise">
+      <div class="seal">♡</div>
+    </div>
+    <p class="hint">TAP THE SEAL TO OPEN</p>
+
+    <button class="primary" onclick="go(2)">OPEN YOUR SURPRISE</button>
+  </section>
+
+  <!-- PAGE 2 -->
+  <section class="page" id="p2">
+    <div class="tiny-label">♡ A LITTLE BIRTHDAY GARDEN ♡</div>
+    <div class="flower-circle">🌸</div>
+    <h2>Happy Birthday</h2>
+    <p class="name">My Madam Ji ♡</p>
+
+    <div class="paper">
+      <p>Today is yours. A whole garden of wishes, for every laugh you bring, every silly moment, and every reason you make the world brighter.</p>
+      <div class="song-title">♡ Dedicated Special Song For You ♡</div>
+      <p class="small">I picked this one, because it always reminds me of you.</p>
+      <button class="secondary" onclick="go(3)">SEE OUR ALBUM</button>
+    </div>
+  </section>
+
+  <!-- PAGE 3 -->
+  <section class="page" id="p3">
+    <div class="tiny-label">♡ OUR ALBUM ♡</div>
+    <h2>Some cool album for you</h2>
+    <p class="script">a few of my favourite moments with you ♡</p>
+
+    <div class="memory-card">
+      <div class="memory-art">🧸🍰</div>
+      <div class="memory-count">MEMORY 01 / 03</div>
+      <p>thank you for showing up — for everything, every time.</p>
+    </div>
+
+    <div class="memory-card">
+      <div class="memory-art">🌷📸</div>
+      <div class="memory-count">MEMORY 02 / 03</div>
+      <p>the little moments somehow become the ones I remember most.</p>
+    </div>
+
+    <div class="memory-card">
+      <div class="memory-art">💗✨</div>
+      <div class="memory-count">MEMORY 03 / 03</div>
+      <p>some memories are tiny, but they stay warm forever.</p>
+    </div>
+
+    <button class="primary" onclick="go(4)">PICK A WISH</button>
+  </section>
+
+  <!-- PAGE 4 -->
+  <section class="page" id="p4">
+    <div class="tiny-label">♡ THREE WISHES ♡</div>
+    <h2>a tiny bouquet of birthday wishes</h2>
+    <p class="script">pick each flower — there's a little wish inside ♡</p>
+
+    <div class="flowers">
+      <button class="flower" onclick="wish(0)">🌸</button>
+      <button class="flower" onclick="wish(1)">🌷</button>
+      <button class="flower" onclick="wish(2)">🌼</button>
+    </div>
+
+    <div id="wishBox" class="wish-box">
+      <div class="wish-placeholder">♡ PICK A WISH ♡</div>
+    </div>
+
+    <button class="primary" onclick="go(5)">CONTINUE</button>
+  </section>
+
+  <!-- PAGE 5 -->
+  <section class="page" id="p5">
+    <div class="tiny-label">♡ HAPPY BIRTHDAY ♡</div>
+    <div class="flower-circle">🌸</div>
+    <h2>Happy Birthday</h2>
+    <p class="name">My Madam Ji ♡</p>
+
+    <div class="paper">
+      <p>thank you for being you — for the patience, the laughs, the silly side, and the hope you bring into ordinary days.</p>
+      <button class="secondary" onclick="go(6)">READ MY LETTER</button>
+    </div>
+  </section>
+
+  <!-- PAGE 6 -->
+  <section class="page letter-page" id="p6">
+    <div class="tiny-label">♡ A BIRTHDAY LETTER ♡</div>
+    <div class="flower-circle">🐻</div>
+    <h2>My Madam Ji,</h2>
+
+    <div class="letter">
+      <p>there’s no card big enough for everything I’d like to say, so I made you a little garden — with a song, our pictures, and a few of my favourite wishes for the year ahead.</p>
+
+      <p>thank you for the small and unseen things — the way you check in, the jokes only we get, the quiet patience when I’m being too much. I noticed. I still notice.</p>
+
+      <p>I hope today you feel celebrated. I hope you eat something delicious that you didn’t have to make, and someone tells you you’re loved (you are). Most of all, I hope this year ahead feels — for one whole trip around the sun — exactly the way you’ve always made me feel: completely, completely loved.</p>
+
+      <div class="final-heart">♡</div>
+      <p class="closing">Happy Birthday, Pranshii.<br>Keep smiling. ♡</p>
+    </div>
+  </section>
+
+</main>
+
+<div class="dots" id="dots"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
